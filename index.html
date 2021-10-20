@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>GAME</title>
+</head>
+
+<body background="./background.jpg">
+    
+    <div class="menu-container">
+        <div class="menu"> 
+            <ul class="nav-tabs">
+                <li class="nav-item"><a class="link-active" id="quests">QUESTS</a> </li>
+                <li class="nav-item"><a class="link">MAP</a> </li>
+                <li class="nav-item"><a class="link">INVENTORY</a> </li>
+                <li class="nav-item"><a class="link">BLUEPRINT</a> </li>
+                <li class="nav-item"><a class="link" id="skills">SKILLS</a> </li>
+            </ul>
+
+            <!-- menu's content changes depending on the navigation item choosed -->
+            <div class="menu-content-quests" id="menu-content-quests">
+                <div class="quests-container">
+
+                    <ul class="quests-list">
+                        <li class="quest-item"><a class="quest-link-active" id="find-medicine">THE STOLEN DAGGER</a></li>
+                        <li class="quest-item"><a class="quest-link" id="higher-tropes">THE BOSS'S SECRET</a></li>
+                    </ul>
+
+                    <div class="quest-content" id="first-content">
+                        <div class="quest-info">
+                            <div class="main-info">
+                                <div class="info-text-container">
+                                    <p class="info-title">THE STOLEN DAGGER</p>
+                                    <p class="info-text">Gramarth’s dagger has been stolen, he thinks that someone in the Gol-Gardin tavern has stole it.</p>
+                                    <div class="rewards">
+                                        <p class="icon-text">+50 XP</p>
+                                    </div>
+                                </div>
+                                <img class="info-img" src='./warrior.png' alt="">
+                            </div>
+
+
+                        </div> 
+                        
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="hidden" id="menu-content-skills">
+                <div class="main">
+                    <div class="skill-main">
+
+                    <div class="abilitie">
+                        <img src="./sword.png" alt="weapons">
+                    </div>
+
+                    <div class="skill-tree">
+
+                        <div class="first-row">
+
+                            <div id="diamond">
+                                <div class="diamond-content">
+                                    <img class="diam-img" src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/ffffff/external-axe-gardening-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"/>
+                                </div>
+                            </div>
+
+                            <div id="diamond">
+                                <div class="diamond-content">
+                                    <img class="diam-img" src="https://img.icons8.com/dotty/80/ffffff/cosh-weapon.png"/>
+                                </div>
+                            </div>
+
+                            <div id="diamond">
+                                <div class="diamond-content">
+                                    <img class="diam-img" src="https://img.icons8.com/ios/50/ffffff/mage-staff.png"/>
+                                </div>
+                            </div>
+
+                            <div id="diamond">
+                                <div class="diamond-content">
+                                    <img class="diam-img" src="https://img.icons8.com/dotty/80/ffffff/minigun--v1.png"/>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <div class="second-row">
+
+                            <div id="diamond" class="filas-siguientes">
+                                <div class="diamond-content">
+                                    <img class="diam-img" src="https://img.icons8.com/ios-filled/50/ffffff/missile.png"/>
+                                </div>
+                            </div>
+
+                            <div id="diamond" class="filas-siguientes">
+                                <div class="diamond-content">
+                                    <img class="diam-img" src="https://img.icons8.com/ios/50/ffffff/kris.png"/>
+                                </div>
+                            </div>
+
+                            <div id="diamond"  class="filas-siguientes">
+                                <div class="diamond-content">
+                                    <img class="diam-img" src="https://img.icons8.com/ios/50/ffffff/taser.png"/>
+                                </div>
+                            </div>
+
+                        </div>
+                    
+                    </div>
+                </div>
+                
+                <div class="skill-main">
+
+                    <div class="abilitie">
+                        <img src="./shield.png" alt="shields">
+                    </div>
+
+                    <div class="skill-tree">
+                        <div class="first-row">
+
+                            <div id="diamond">
+                                <div class="diamond-content">
+                                    <img class="diam-img" src="https://img.icons8.com/dotty/80/ffffff/shield.png"/>
+                                </div>
+                            </div>
+
+                            <div id="diamond">
+                                <div class="diamond-content">
+                                    <img class="diam-img" src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/ffffff/external-shield-business-kiranshastry-lineal-kiranshastry-1.png"/>
+                                </div>
+                            </div>
+
+                            <div id="diamond">
+                                <div class="diamond-content">
+                                    <img class="diam-img" src="https://img.icons8.com/external-itim2101-lineal-itim2101/64/ffffff/external-shield-computer-itim2101-lineal-itim2101.png"/>
+                                </div>
+                            </div>
+
+                            <div id="diamond">
+                                <div class="diamond-content">
+                                    <img class="diam-img" src="https://img.icons8.com/wired/64/ffffff/shield.png"/>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <div class="second-row">
+
+                            <div id="diamond">
+                                <div class="diamond-content">
+                                    <img class="diam-img" src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/ffffff/external-shield-cyber-security-kiranshastry-lineal-kiranshastry-2.png"/>
+                                </div>
+                            </div>
+                            
+                            <div id="diamond">
+                                <div class="diamond-content">
+                                    <img class="diam-img" src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/ffffff/external-shield-internet-security-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"/>
+                                </div>
+                            </div>
+                            
+                            <div id="diamond">
+                                <div class="diamond-content">
+                                    <img class="diam-img" src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/ffffff/external-shield-internet-security-flatart-icons-outline-flatarticons-1.png"/>
+                                </div>
+                            </div>
+
+                        </div>
+                    
+                    </div>
+
+                </div>
+                </div>
+                
+
+                <div class="skill-description">
+                    <p class="text-description">
+                        CLASSIC IRON AXE
+                        <br>
+                        <br>
+                        <br>STRENGTH: 15%
+                        <br>
+                        <br>SPELL: BASIC
+                    </p>
+                </div>
+                
+            </div>
+            
+    </div>
+
+    <script src="./index.js"></script>
+</bodyund=>
+</html>
